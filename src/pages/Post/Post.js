@@ -18,7 +18,7 @@ export default () => {
         resolver: yupResolver(validationPost)
     });
 
-    const addPost = data => console.log(data.content)
+    const addPost = data => console.log(data)
     
     return (
         <div>
